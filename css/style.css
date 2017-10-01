@@ -1,0 +1,87 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .headerLeft {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+header .headerLeft h1 {
+  font-weight: normal;
+  padding-right: 2rem;
+}
+header .headerLeft nav ul {
+  display: flex;
+}
+header .headerLeft nav ul li {
+  padding: 1rem 0;
+  list-style: none;
+}
+header .headerLeft nav ul li a {
+  padding: 0 1rem;
+  border-left: 1px solid #333;
+  text-decoration: none;
+}
+header .headerRight ul {
+  display: flex;
+}
+header .headerRight ul li {
+  padding: 0 1rem;
+  list-style: none;
+}
+.mainContainer .mainImage img {
+  display: block;
+  width: 100%;
+}
+.PinboardStatus {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1.5rem;
+}
+.PinboardStatus .tags {
+  display: flex;
+}
+.PinboardStatus .tags .title {
+  text-transform: uppercase;
+}
+.PinboardStatus .tags ul {
+  display: flex;
+}
+.PinboardStatus .tags ul li {
+  padding: 0 1rem;
+  list-style: none;
+}
+.cards {
+  background-color: #d1d3d4;
+}
+.cards ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.cards ul .card {
+  width: 32%;
+  min-height: 100px;
+  position: relative;
+  list-style: none;
+  border-radius: 20px;
+}
+.cards ul .card .image {
+  position: absolute;
+}
+.cards ul .card .image img {
+  display: block;
+  width: 100%;
+}
+.cards ul .card .like {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cards ul .card .tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

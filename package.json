@@ -1,0 +1,25 @@
+{
+  "name": "stylus-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinokoruumu/stylus-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kinokoruumu/stylus-practice/issues"
+  },
+  "homepage": "https://github.com/kinokoruumu/stylus-practice#readme",
+  "devDependencies": {
+    "gulp-stylus": "^2.6.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}

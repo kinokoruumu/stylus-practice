@@ -1,0 +1,98 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .headerLeft {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        h1 {
+            font-weight: normal;
+            padding-right: 2rem;
+        }
+        nav {
+            ul {
+                display: flex;
+                li {
+                    padding: 1rem 0;
+                    list-style: none;
+                    a {
+                        padding: 0 1rem;
+                        border-left: 1px solid #333;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .headerRight {
+        ul {
+            display: flex;
+            li {
+                padding: 0 1rem;
+                list-style: none;
+            }
+        }
+    }
+}
+
+.mainContainer {
+    .mainImage {
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+}
+
+.PinboardStatus {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+    .tags {
+        display: flex;
+        .title {
+            text-transform: uppercase;
+        }
+        ul {
+            display: flex;
+            li {
+                padding: 0 1rem;
+                list-style: none;
+            }
+        }
+    }
+}
+
+.cards {
+    background-color: #D1D3D4;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        .card {
+            width: 32%;
+            min-height: 100px;
+            position relative;
+            list-style: none;
+            border-radius: 20px;
+            .image {
+                position absolute;
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+            .like {
+                position absolute;
+                top: 0;
+                left: 0;
+            }
+            .tag {
+                position absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+    }
+}
